@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reyhan</title>
+</head>
+<body>
+    <h1 id="judul">halo</h1>
+
+    <button onclick="ubah()">satu</button> 
+    <button onclick="ubah2()">dua</button>
+
+    <script>
+        function ubah(){
+            let judul = document.getElementById("judul");
+            judul.innerText = "satu";
+            judul.style.color = "red";
+        }
+
+        function ubah2(){
+            let judul = document.getElementById("judul");
+            judul.innerText = "dua";
+            judul.style.color = "blue";
+        }
+    </script> 
+</body>
+</html>
